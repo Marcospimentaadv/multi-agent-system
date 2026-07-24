@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Segredos
+.env
+
+# Saídas geradas
+data/output/*.xlsx
+data/output/*.md
+!data/output/.gitkeep
+
+# SO / editor
+.DS_Store
+.idea/
+.vscode/
+data/input/*.pdf
